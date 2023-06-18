@@ -1,0 +1,54 @@
+.lineas-section{
+    background: #272E35;
+    border-radius: 12px;
+    width: 313px;
+    height: 180px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 20px;
+    .lineas-section-container{
+        .title{
+            color: white;
+        }
+        .sub-title{
+            color: #B7B7B7; 
+            position: relative;
+            bottom: 12px;
+            padding: 0px 12px;  
+        }
+        .section-arrow{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: baseline;
+            position: relative;
+            bottom: 73px;
+            margin: 0px 20px 0px 0px;
+            color: #B7B7B7;
+            .title-arrow{
+                margin-right: 22px;
+            }
+        }
+        .linea-yellow{
+            position: relative;
+            right: 15px;
+            bottom: 46px;
+        }
+        .linea-green{
+            position: relative;
+            right: 30px;
+            bottom: 155px;
+        }
+        .circle-yellow{
+            position: relative;
+            bottom: 256px;
+            left: 137px;
+        }
+    }
+}
+@media screen and (max-width: 769px) {
+    .lineas-section{
+        display: none;
+    }
+}

@@ -1,0 +1,41 @@
+.barra{
+    position: relative;
+    bottom: 535px;
+    left: 649px;
+    margin: 0px 17px 7px 34px;
+    background: linear-gradient(113.24deg, #13B497 16.01%, #05737A 106.71%);
+    border-radius: 12px;
+    width: 570px;
+    height: 291px;
+    .section-title{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        .title{
+            color: white;
+            padding: 10px 0px 6px 18px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+        }
+        .title-two{
+            color: white;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            position: relative;
+            left: 328px;
+            font-size: 30px;
+        }
+        .sub-title{
+            color: white;
+            position: relative;
+            right: 171px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+        }
+    }
+}
+
+

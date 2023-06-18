@@ -1,0 +1,409 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+.header{
+    background: #24292E;
+    height: 85px;
+    max-width: 1920px;
+}  
+.menu{
+    display: flex;
+}
+.fondo-tt{
+    margin: 32px 25px;
+}
+.fondo-es{
+    bottom: 31px;
+    position: relative;
+    right: 69px;
+}
+.search-input{
+    width: 487px;
+    height: 25px;
+    border-radius: 9px;
+    font-family: 'Poppins';
+    background: #1C2126;
+}
+.search{
+    border: none;
+    background: no-repeat;
+    color: white;
+    position: relative;
+    right: 52px;
+    top: 9px;
+}
+.section{
+    display: flex;
+}
+.button-settings{
+    background: #13B497;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    /* margin: 0px 110px 0px 0px; */
+}
+.settings-large{
+    position: relative;
+    bottom: 7px;
+    left: 8px;
+}
+.settings{
+    display: flex;
+    left: 12px;
+    position: relative;
+    top: 12px;
+}
+.general{
+    background: #24292E;
+    width: 36px;
+    height: 36px;
+    margin-left: 22px;
+    border-radius: 12px;
+}
+.general-message{
+    background: #24292E;
+    width: 36px;
+    height: 36px;
+    margin-left: 22px;
+    border-radius: 12px;
+}
+.general-regalo{
+    background: #24292E;
+    width: 36px;
+    height: 36px;
+    margin-left: 22px;
+    border-radius: 12px;
+}
+.notification{
+    position: relative;
+    left: 2px;
+}
+.notification-alert{
+    left: 0px;
+    position: relative;
+    bottom: 16px;
+}
+.notification-alert-message{
+    right: 10px;
+    position: relative;
+    bottom: 16px;
+}
+.notification-alert-regalo{
+    left: 0px;
+    position: relative;
+    bottom: 16px;
+}
+.message-grand{
+    position: relative;
+    right: 5px;
+    top: 2px;
+}
+.message-small-one{
+    position: relative;
+    bottom: 5px;
+    left: 7px;
+}
+.message-small-two{
+    position: relative;
+    bottom: 7px;
+    right: 17px;
+}
+.regalo{
+    position: relative;
+    left: 2px;
+    top: 3px;
+}
+.profile{
+    margin-left: 50px;
+    position: relative;
+    top: 15px;
+}
+.section-arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    position: relative;
+    bottom: 55px;
+    color: white;
+    right: 187px;
+}
+.name{
+    position: relative;
+    display: flex;
+    margin: 0 10px;
+}
+.rectangle-section{
+    position: relative;
+    top: 8px;
+    right: 157px;
+    display: flex;
+}
+.rectangle-section-mobile{
+    display: none;
+}
+.user{
+    position: relative;
+    display: flex;
+    right: 70%;
+    bottom: 33px;
+    margin-left: 12px;
+}
+
+.Dashboard{
+    background: #2D3339;
+    height: 62px;
+    /* width: 1920px; */
+    position: relative;
+    bottom: 12px;
+}
+.title{
+    color: #13B497;
+    position: relative;
+    top: 21px;
+    left: 56px;
+}
+.generic{
+    background: #24292E;
+    position: relative;
+    bottom: 12px;
+    .dashboard-section{
+        background: #24292E;
+        .container{
+            width: 878px;
+            height: 505px;
+            padding: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: baseline;
+        }
+    }
+    .title-section1{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 10px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        color: white;
+        /* padding: 12px 12px 0px 0px;
+        margin: 20px 5px 0px 8px; */
+    }
+    .section-subtitle{
+        .section-title-with-arrow{
+            display: flex;
+            flex-direction: row;
+            left: 491px;
+            align-items: baseline;
+            position: relative;
+            bottom: 32px;
+            margin-right: 10px;
+            color: white;
+            .title-arrow{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                margin-right: 11px;
+            }
+        }
+        .search-input-two{
+            width: 545px;
+            height: 25px;
+            border-radius: 9px;
+            font-family: 'Poppins';
+            background: #1C2126;
+            position: relative;
+            bottom: 22px;
+            left: 23px;
+        }
+    }
+   
+}
+.torta-divider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.end-torta{
+    display: flex;
+    justify-content: space-between;
+    .img-cuadrada{
+        position: relative;
+        bottom: 93px;
+    }
+    .texto-torta{
+        color: white;
+        position: relative;
+        right: 248px;
+        bottom: 32px;
+    }
+    .texto-torta2{
+        color: white;
+        position: relative;
+        right: 91px;
+        bottom: 64px;
+    }
+    .texto-torta3{
+        color: white;
+        position: relative;
+        left: 85px;
+        bottom: 95px;
+    }
+    .lineas{
+        font-family: popus;
+    }
+}
+/* section @media queries for phones and tablets  */
+/* Estilos para anchos de pantalla menores a 768px */
+@media screen and (max-width: 767px) {
+    .header {
+      height: 100%;
+      width: 100%;
+      .search-input{
+        display: none;
+      }
+      .search{
+        display: none;
+      }
+      .button-settings{
+        display: none;
+      }
+      .general-message{
+        display: none;
+      }
+      .general-regalo{
+        display: none;
+      }
+      .menu{
+        display: flex;
+        position: fixed;
+        margin: 5px 8px 5px 8px;
+        flex-direction: row;
+      }
+      .rectangle-section{
+        display: none;
+      }
+      .rectangle-section-mobile{
+        display: block;
+      }
+      .name{
+        display: none;
+      }
+      .user{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        bottom: 30px;
+        right: 1px;
+      }
+      .general{
+        position: relative;
+        left: 37px;
+      }
+      .fondo-tt{
+        display: flex;
+        position: relative;
+        left: 25px;
+        top: 19px;
+      }
+      .fondo-es{
+        display: flex;
+        position: relative;
+        bottom: 54px;
+        left: 61px;
+      }
+    }
+    .section-arrow{
+        display: flex;
+        position: relative;
+        right: 7px;
+        bottom: 45px;
+    }
+    .Dashboard{
+        display: none;
+    }
+    .principal{
+        width: 350px;
+        height: 371px;
+        display: flex;
+        position: relative;
+        bottom: 54px;
+        right: 35px;
+        margin: 4px 17px 4px 17px;
+    }
+    .search-input-two{
+        width: 305px !important;
+        display: flex;
+        position: relative !important;
+        left: 0px !important;
+        margin-right: 12px;
+    }
+    .barra{
+        display: none;
+    }
+    .Tuesday{
+        display: flex !important;
+        position: relative !important;
+        bottom: 46px !important;
+        left: 15px !important;
+    }
+    .pcs{
+        display: flex !important;
+        flex-direction: row;
+        position: relative !important;
+        bottom: 65px !important;
+        right: 303px !important;
+        justify-content: flex-end;
+        color: white;
+    }
+    .section-title-with-arrow {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: baseline !important;
+        position: relative !important;
+        bottom: 32px !important;
+        margin-right: 10px !important;
+        left: 226px !important;
+        color: white;
+    }
+    .end-torta{
+        display: flex !important;
+        justify-content: space-between !important;
+        width: 398px !important;
+        position: relative !important;
+        bottom: 24px !important;
+        .texto-torta{
+            color: white  !important;
+            position: relative !important;
+            right: 160px;
+            bottom: 32px;
+            font-size: 10px;
+        }
+        .texto-torta2{
+            color: white !important;
+            position: relative !important;
+            right: 69px;
+            margin-left: 15px;
+            font-size: 10px;       
+        }
+        .texto-torta3{
+           color: white !important;
+           position: relative !important;
+           left: 54px;
+           bottom: 97px;
+           font-size: 10px;
+        }
+    }
+  }
+  
+  /* Estilos para anchos de pantalla mayores o iguales a 768px */
+  @media screen and (min-width: 768px) {
+    .header {
+        height: 100%;
+        width: 100%;
+    }
+  }
+  

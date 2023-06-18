@@ -1,0 +1,16 @@
+.barra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    .bar{
+        display: flex;
+        box-sizing: border-box;
+        height: 193px;
+        width: 299px;
+        transform: rotate(0deg);
+        position: absolute;
+        top: 152px;
+        left: 331px;
+    }
+}

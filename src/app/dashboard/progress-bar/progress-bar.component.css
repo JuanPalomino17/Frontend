@@ -1,0 +1,57 @@
+.progress-bar{
+    background: #272E35;
+    border-radius: 12px;
+    width: 313px;
+    height: 180px;
+   .progress-bar-container{
+      .title{
+         color: white;
+      }
+      .sub-title{
+         color: #B7B7B7;
+      }
+   }
+   .section-daily{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: baseline;
+      position: relative;
+      bottom: 72px;
+      margin: 0px 20px 0px 0px;
+      color: #B7B7B7;
+      .daily{
+         color: #B7B7B7;
+         margin-right: 22px;
+      }
+   }
+   .barra-of-progress-green{
+      position: relative;
+      right: 25px;
+      bottom: 11px;
+   }
+   .barra-of-progress-gray{
+      right: 8px;
+      position: relative;
+      bottom: 53px;
+   }
+}
+@media screen and (max-width: 768px) {
+   .progress-bar{
+      width: 350px;
+      display: flex;
+      position: relative;
+      bottom: 108px;
+      right: 14px;
+   }
+   .barra-of-progress-green {
+      position: relative;
+      right: 0px;
+      bottom: 11px;
+  }
+  .barra-of-progress-gray {
+      left: 24px;
+      position: relative;
+      bottom: 53px;
+   }
+}
